@@ -20,17 +20,17 @@ class baskhara{
 		}
 		void calcular(){
 			if(a == 0){
-				cout<<"nao é uma equacao de segundo grau ";
+				cout<<"nao Ã© uma equacao de segundo grau ";
 				return;
 			}
 			double delta = (b * b) - (4 * a * c);
 			if(delta < 0){
-				cout<<"raiz é igual a 0";
+				cout<<"raiz Ã© igual a 0";
 			}else{
 				double x1 = (-b + sqrt(delta)) / (2 * a);
-            	double x2 = (-b - sqrt(delta)) / (2 * a);
-            	cout<<"x1 : "<<x1;
-            	cout<<" x2: "<<x2;
+            			double x2 = (-b - sqrt(delta)) / (2 * a);
+            			cout<<"x1 : "<<x1;
+            			cout<<" x2: "<<x2;
 			}
 		
 		}
